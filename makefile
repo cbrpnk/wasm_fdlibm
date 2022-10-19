@@ -52,7 +52,7 @@
 CFLAGS = -D_IEEE_LIBM
 
 CC = emcc
-AR=emar
+AR=ar
 
 INCFILES = fdlibm.h
 .INIT: $(INCFILES)
